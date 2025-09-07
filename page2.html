@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>صفحه پورتال</title>
+    <style>
+        body {
+            font-family: 'B Homa', 'Tahoma', sans-serif;
+            background-color: #f7f7f7;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            margin: 0;
+            padding: 0;
+            direction: rtl;
+            color: #333;
+            max-width: 490px;
+            
+        }
+
+        .top-header {
+            width: 90%;
+            background-color: #fff;
+            padding: 15px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            color: #333;
+        }
+
+        .user-info {
+            display: flex;
+            align-items: center;
+        }
+
+        .profile-pic {
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            background-color: #e0e0e0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-right: 10px;
+            border: 1px solid #ccc;
+         
+            margin-bottom: 20px;
+        }
+
+        .no-photo-text {
+            color: #888;
+            font-size: 8px;
+            text-align: center;
+            line-height: 1.2;
+           
+        }
+       .profile-pic img{
+        width: 60px;
+        height: 40px;
+        margin-left: 30px;
+       }
+
+        .username {
+            font-size: 10px;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+
+        .date-time {
+            font-size: 7px;
+            color: #888;
+            top: 0;
+            margin-bottom: 20px;
+        }
+
+        .color-bar {
+            width: 100%;
+            height: 3px;
+            background-color: #fce303;
+            position: relative;
+            top: -20px;
+            z-index: 10;
+        }
+
+        .header {
+            width: 90%;
+            max-width: 600px;
+            display: flex;
+            justify-content: flex-end;
+            padding: 10px 20px;
+            color: #a1a1a1;
+            font-size: 14px;
+            align-self: center;
+        }
+
+        .main-container {
+            width: 100%;
+            max-width: 600px;
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            padding: 0 20px;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .card {
+            background-color: #fff;
+            border-radius: 12px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            text-align: right;
+            direction: ltr;
+            width: 80%;
+            
+           
+        }
+
+        .card-icon {
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            background-color: #e9f0f9;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-left: 20px;
+        }
+
+        .card-icon img {
+            width: 70%;
+            height: 70%;
+            object-fit: contain;
+        }
+
+        .card-content {
+            display: flex;
+            flex-direction: column;
+            flex-grow: 1;
+            direction: rtl;
+        }
+
+        .card-title {
+            font-size: 15px;
+            font-weight: bold;
+            color: #333;
+            margin-bottom: 5px;
+        }
+
+        .card-description {
+            font-size: 10px;
+            color: #555;
+            line-height: 1.5;
+        }
+    </style>
+</head>
+<body>
+    <div class="top-header">
+        <div class="user-info">
+            <div class="profile-pic">
+               <div><img src="meno.png" alt=""></div>
+            </div>
+            <span class="username">موسسه آموزش عالی بصیر آبیک</span>
+        </div>
+        <div class="date-time">
+            <span>۱۴۰۳/۰۳/۱۵ یکشنبه</span>
+        </div>
+    </div>
+    <div class="color-bar"></div>
+
+    <div class="header">
+        <span class="header-text">جستجو در منو ها</span>
+    </div>
+    <div class="main-container">
+        <div class="card">
+            <div class="card-icon">
+                <img src="1757214102606.png" alt="آیکون قلم و جوهر">
+            </div>
+          <a href="page3.html">  <div class="card-content">
+                <span class="card-title">ورود به سامانه</span>
+                <span class="card-description">ورود به سامانه با نام کاربری و رمز عبور</span>
+            </div></a>
+        </div>
+        <div class="card">
+            <div class="card-icon">
+                <img src="1757214102600.png" alt="آیکون آموزشی">
+            </div>
+            <div class="card-content">
+                <span class="card-title">ورود از طریق پنجره واحد</span>
+                <span class="card-description">پنجره ملی خدمات دولت هوشمند</span>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-icon">
+                <img src="1757214102593.png" alt="آیکون فارغ‌التحصیلی">
+            </div>
+            <div class="card-content">
+                <span class="card-title">ردیابی نامه و درخواست ها</span>
+                <span class="card-description">نامه ها و درخواست های خود را از طریق این لینک پیگیری نمایید<span>
+            </div>
+        </div>
+          <div class="card">
+            <div class="card-icon">
+                <img src="1757214102588.png" alt="آیکون فارغ‌التحصیلی">
+            </div>
+            <div class="card-content">
+                <span class="card-title">اطلاع رسانی</span>
+                <span class="card-description">آخرین اخبار های ما هچنان خبر های آرشیو را با ورود به اینجا ببینید<span>
+            </div>
+        </div>
+         <div class="card">
+            <div class="card-icon">
+                <img src="1757214102584.png" alt="آیکون فارغ‌التحصیلی">
+            </div>
+            <div class="card-content">
+                <span class="card-title">ارتباط با مسولین</span>
+                <span class="card-description">اگر میخواهیند مسولین حرف شمارا بشنوند اینجا وارد شوید<span>
+            </div>
+        </div>
+         <div class="card">
+            <div class="card-icon">
+                <img src="1757214102579.png" alt="آیکون فارغ‌التحصیلی">
+            </div>
+            <div class="card-content">
+                <span class="card-title">تماس با ما</span>
+                <span class="card-description">آدرس تلفن ایمیل فاکس اس ام اس مارا اینجا ببینید<span>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
